@@ -1,0 +1,85 @@
+@charset "utf-8";
+/*template 1*/
+.container1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+.item1:first-child {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.item1 {
+    background-color: #eeeeee;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+/*template 2*/
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+.item2 {
+    background-color: #a8deaf;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+/*template 3*/
+.container3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+.item3 {
+    background-color: #cb9ed4;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+/*template 4*/
+.container4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+.item4 {
+    background-color: #9ba5e2;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+/*template 5*/
+.container5 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+.item5 {
+    background-color: #c7c59c;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+/*template 6*/
+.container6 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+.item6 {
+    background-color: #8d6363;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}

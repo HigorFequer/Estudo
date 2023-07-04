@@ -1,0 +1,23 @@
+@charset "utf-8";
+body {
+    background-color: #8787ae;
+    color: #ffffff;
+}
+h1 {
+    background-color: #42425c;
+    color: #e29fd3;
+}
+p {
+    background-color: rgb(51, 179, 28);
+}
+p.fundo {
+    background-color: rgb(45, 210, 210);
+    color: black;
+}
+.generico {
+    background-color: blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.italico {
+    font-style: italic;
+}
